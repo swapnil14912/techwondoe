@@ -1,0 +1,81 @@
+.SectionOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -3.5rem;
+}
+
+.SectionOne__pOne{
+    color: white;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.SectionOne__pTwo{
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+}
+
+.SectionOne__button{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 1rem;
+}
+
+.OrangePoint{
+    background: linear-gradient(45deg, #F9D423, #FF4E50);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+@media only screen and (max-width:500px) {
+    .SectionOne__button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+        gap: 1rem;
+    }
+    .SectionOne__pTwo{
+        font-size: 3rem;
+        color: white;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .SectionOne__button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+        gap: 1rem;
+    }
+    .SectionOne__pTwo{
+        font-size: 3.5rem;
+        color: white;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .SectionOne__button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+        gap: 1rem;
+    }
+    .SectionOne__pTwo{
+        font-size: 4rem;
+        color: white;
+        text-align: center;
+    }
+}
